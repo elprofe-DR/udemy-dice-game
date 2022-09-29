@@ -3,7 +3,7 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
 let randomImage1 = 'dice' + randomNumber1 + '.png';
 
-let randomImageSrc = 'main/' + randomImage1;
+let randomImageSrc = 'github.com/elprofe-DR/udemy-dice-game/blob/main/' + randomImage1;
 
 let image1 = document.querySelectorAll('img')[0];
 
@@ -13,7 +13,7 @@ image1.setAttribute('src', randomImageSrc);
 
 let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-let randomImageSrc2 = 'main/dice' + randomNumber2 + '.png';
+let randomImageSrc2 = 'github.com/elprofe-DR/udemy-dice-game/blob/main/dice' + randomNumber2 + '.png';
 
 let image2 = document.querySelectorAll('img')[1].setAttribute('src', randomImageSrc2);
 
